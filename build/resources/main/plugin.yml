@@ -1,0 +1,63 @@
+name: ShizaWorld
+description: Plugin with little shiza
+author: Stopper
+version: 1.0.0
+api-version: 1.18
+main: one.mcauth.shizaworld.Main
+depend:
+  - ProtocolLib
+
+commands:
+  molniya0207:
+    description: lol
+    usage: /molniya0207 [ply]
+    permission: shizaworld.lxst
+  silentmolniya:
+    description: silent mode molniya
+    permission: shizaworld.lxst
+  sit:
+    description: Sit on block.
+  lay:
+    description: Lay on ground.
+  nft:
+    description: Free NFT
+  spawnonlyskeletonevent:
+    description: Spawn only skeletons event.
+    permission: shizaworld.lxst
+  spawnonlysalmonevent:
+    description: Spawn only salmon event.
+    permission: shizaworld.lxst
+  noshieldmayevent:
+    description: No shield event.
+    permission: shizaworld.lxst
+  thehell:
+    description: hel ye.
+    permission: shizaworld.lxst
+  artyomam:
+    description: not affilated with artyomfm.
+    permission: shizaworld.lxst
+  artyommp4:
+    description: not affilated with artyomfm or artyomam.
+    permission: shizaworld.lxst
+  noblockevent:
+    description: No block event.
+    permission: shizaworld.lxst
+  tphitevent:
+    description: Tp hit event.
+    permission: shizaworld.lxst
+  artyomfm:
+    description: artyomfm
+    permission: shizaworld.lxst
+  lexify:
+    description: Lexify player
+    usage: /lexify [ply]
+    permission: shizaworld.lxst
+
+permissions:
+  shizaworld.*:
+    description: all
+    children:
+      - shizaworld.lxst
+  shizaworld.lxst:
+    default: op
+    description: lexa stopper
